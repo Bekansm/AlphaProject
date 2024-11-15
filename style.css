@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    height: 2000px;
 }
 nav{
     height: 101px;
@@ -29,21 +30,39 @@ a:hover, a:visited, a {
     cursor:pointer;
 }
 .nav__text :hover, :visited {
+    font-size: 16px;
     color: #001A49;
 }
 .button {
     display: inline-block;
     background: linear-gradient(#CD10FF, #9F06FF);
     color: white;
-    border-radius: 20px;
+    border-radius: 33px;
     padding: 15px 30px;
 }
 
-
+.section1 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
 .section1__element1 {
     height: 700px;
-    width: 1090px;
+    min-width: 1090px;
     background: linear-gradient(45deg, #CD10FF, #9F06FF);
     border-radius: 20px;
-    opacity: 0.05;
+    opacity: 1;
+}
+
+
+
+.section1__element2 {
+    position: relative;
+    right: 240px;
+    top: 170px;
+    height: 360px;
+    min-width: 590px;
+    background-color: #001A49;
+    border-radius: 20px;
+
 }
