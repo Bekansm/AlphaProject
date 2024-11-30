@@ -17,6 +17,10 @@
 }
 
 /* Elements */
+summary {
+  list-style: none; /* Убираем маркер */
+}
+
 details summary::-webkit-details-marker {
   display: none; /* Убираем стрелочку */
 }
